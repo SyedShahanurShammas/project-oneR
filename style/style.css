@@ -95,10 +95,11 @@ main {
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px 157px;
+    text-align: center;
 }
 
 .section-title {
-    text-align: center;
+
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -117,10 +118,11 @@ main {
 .about-section {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .title-about {
-    text-align: center;
+
     color: rgba(117, 117, 117, 1);
 }
 
@@ -130,4 +132,45 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+.what-i-do {
+    margin-top: 130px;
+
+}
+
+.skils-description {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skils-title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.skill {
+    height: 350px;
+    width: 190px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 30px 33px;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.title-cards {
+    margin: 30px 0;
+
 }
